@@ -1,0 +1,38 @@
+{
+  "name": "csv-to-firestore",
+  "version": "1.0.0",
+  "description": "Import CSV to Firestore",
+  "preferGlobal": true,
+  "bin": {
+    "csv-to-firestore": "./bin/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/index.js -c config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKE-12/csv-to-firebase.git"
+  },
+  "keywords": [
+    "csv",
+    "firebase",
+    "firestore",
+    "database"
+  ],
+  "author": "ske-12",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SKE-12/csv-to-firebase/issues"
+  },
+  "homepage": "https://github.com/SKE-12/csv-to-firebase#readme",
+  "dependencies": {
+    "commander": "^2.17.1",
+    "csvtojson": "^2.0.8",
+    "firebase-admin": "^6.0.0",
+    "ora": "^3.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
