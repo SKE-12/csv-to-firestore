@@ -1,4 +1,4 @@
-# CSV TO Firebase
+# CSV to Firebase
 
 Ultimate Fast CLI to migrate your csv data to Firebase Firestore!!!
 
