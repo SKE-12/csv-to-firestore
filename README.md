@@ -12,7 +12,7 @@ npm i -g csv-to-firestore
 
 ### Preparation
 
-Move your CSV file and your Google Service Account ([Step to get Service Accoun](https://cloud.google.com/docs/authentication/production))
+Move your CSV file and your Google Service Account ([Step to get Service Account](https://cloud.google.com/docs/authentication/production)) into the same directory
 
 ### Configuration File
 
