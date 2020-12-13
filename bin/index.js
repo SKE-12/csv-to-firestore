@@ -5,10 +5,10 @@ async function run(argv) {
     const cli = require('./lib/cli')(argv)
 
     // load config file
-    const { path, firebase, mapper } = require('./lib/loadConfig')(cli.config)
+    const { path, firebase, csv, mapper } = require('./lib/loadConfig')(cli.config)
 
     // load csv data
-    const data = await require('./lib/loadCSV')(path)
+    const data = await require('./lib/loadCSV')(path, csv)
 
     // upload to Firebase
     require('./lib/updateFirebase')(firebase, data, mapper)

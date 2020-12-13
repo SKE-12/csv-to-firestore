@@ -26,6 +26,9 @@ module.exports = {
         credential: 'serviceAccount.json', // Your service account file name
         collection: 'sample', // target Collection in Firestore
     },
+    csv: {
+        // csvtojson ConverterOptions configuration
+    }
     mapper: (dataFromCSV) => { // Mapper Method as optional field
         return dataFromCSV // Return data for saving in Firestore
     }
